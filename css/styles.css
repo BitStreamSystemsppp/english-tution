@@ -522,6 +522,78 @@
             box-shadow: 0 4px 15px rgba(232, 180, 184, 0.3);
         }
 
+        /* GRID */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+/* CARD */
+.course-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    height: 100%;
+}
+
+/* ICON */
+.course-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* TEXT */
+.course-title {
+    margin-bottom: 10px;
+}
+
+.course-description {
+    margin-bottom: 15px;
+}
+
+.course-details {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* BOTÃO VIEW DETAILS */
+.toggle-details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* CONTEÚDO ESCONDIDO */
+.course-extra {
+    display: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* BOTÃO APPLY */
+.course-button {
+    margin-top: auto; /* 🔥 ISSO resolve tudo */
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: #f5b5b5;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
         /* ================================
            TEACHERS SECTION
            ================================ */

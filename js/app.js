@@ -4,11 +4,11 @@
         const translations = {
             en: {
                 home: "Home", about: "About", courses: "Courses", testimonials: "Testimonials", contact: "Contact", support: "Support",
-                heroTitle: "Learn British English with Confidence",
-                heroSubtitle: "I'm a certified British English teacher based in London.",
+                heroTitle: "Learn English with Confidence",
+                heroSubtitle: "I'm a certified English teacher based in London.",
                 heroCTA: "Start Your Free Lesson",
                 aboutTitle: "About",
-                aboutIntro: "I'm a certified British English teacher based in London.",
+                aboutIntro: "I'm a certified  English teacher based in London.",
                 aboutCert1: "TEFL, TESOL & CELTA certified",
                 aboutCert2: "Over 10 years teaching experience",
                 aboutCert3: "London native with clear British accent",
@@ -256,7 +256,7 @@
         // WHATSAPP
         // ================================
         function openWhatsApp() {
-            window.open('https://wa.me/447123456789', '_blank');
+            window.open('https://wa.me/+447448943655', '_blank');
         }
 
         // ================================
@@ -296,3 +296,4 @@
                 toast.remove();
             }, 3000);
         }
+        
